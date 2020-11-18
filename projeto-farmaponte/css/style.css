@@ -1,0 +1,39 @@
+body { /*Background da pagina*/
+     background-color: #9cc7ce;
+}   
+form { /* Corpo do formulario */
+    width: 40%;
+    margin: 0 auto;
+    background-color: #EAEAEA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px;
+}
+img#logo{ /*Imagem logo farma ponte*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+div#msg-sucesso{ /*Area de cadastrado com sucesso*/
+    text-align: center;
+    padding: 2px;
+    background-color: rgba(50,205,50,.3);
+    border: 3px solid rgb(34,139,34);
+}
+div.msg-erro{ /*Area de erros ao cadastrar/logar*/
+    text-align: center;
+    padding: 2px;
+    background-color: rgba(255, 104, 104, 0.9);
+    border: 3px solid rgb(255, 0, 0)
+}
+div#imagem{ /*Imagem de exemplo na area do usuario*/
+    display: block;
+    position: right;
+}
+    div#options{ /*Botão sair na area do usuario*/
+    position: absolute;
+    margin: 20px 800px;
+    font: normal 60px Arial;
+    
+}
